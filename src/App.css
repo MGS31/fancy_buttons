@@ -1,3 +1,5 @@
+
+
 .App {
   display: flex;
   flex-direction: column;
@@ -10,6 +12,13 @@
   padding: 1em;
   text-align: center;
   background: #333;
+  color: white;
+}
+
+.App.dark,
+.App.dark button {
+  background: #222;
+  border-color: white;
   color: white;
 }
 
@@ -38,3 +47,4 @@ button {
 i {
   font-style: normal;
 }
+
